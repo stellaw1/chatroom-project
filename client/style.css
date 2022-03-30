@@ -1,0 +1,60 @@
+#app-view {
+    background-color:burlywood;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+#app-menu li:hover {
+    color: white;
+    background-color: cadetblue;
+}
+
+.room-list li:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.message-list {
+    overflow: auto;
+    height: 300px;
+    display: block;
+    width: 98%;
+    padding: 1%;
+    background-color: azure;
+}
+
+div.message {
+    display: block;
+    padding: 1%;
+    padding-top: 10px;
+    width: 80%;
+    background-color: aqua;
+}
+
+div.my-message {
+    display: block;
+    margin-left: auto; 
+    margin-right: 0;
+    padding: 1%;    
+    width: 80%;
+    background-color: aquamarine;
+}
+
+span.message-user {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1024px) {
+    #app-view {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #app-view {
+        width: 90%;
+    }
+}
